@@ -5,6 +5,7 @@
 #include <stdio.h>
 
 
+
 /**
  * main - Printf if number is positive, zero or negative
  * Return: Always (Success)
@@ -12,6 +13,7 @@
  */
 
 int main(void)
+
 {
 
 	int n;
