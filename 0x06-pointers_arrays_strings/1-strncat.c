@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concanate two strings
+ * _strncat - concanate two strings
  * unsing at most n bytes from src
  * @dest: input value
  * @src: input value
