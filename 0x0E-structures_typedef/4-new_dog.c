@@ -40,7 +40,8 @@ char *_strcpy(char *dest, char *src)
 	{
 		len++;
 	}
-	for (i = 0; 1 < len; i++)
+
+	for (i = 0; i < len; i++)
 	{
 		dest[i] = src[i];
 	}
@@ -69,10 +70,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dog->name = malloc(sizeof(char) * (len1 + 1));
 	if (dog->name == NULL)
-
 	{
 		free(dog);
-		return(NULL);
+		return (NULL);
+
 	}
 	dog->owner = malloc(sizeof(char) * (len2 + 1));
 	if (dog->owner == NULL)
